@@ -7,14 +7,14 @@ const DonationsCard = ({ donations }) => {
     return (
         <div>
             <Link to={`/donations/${donations.id}`}>
-                <div className="card bg-[donations.CardColor] bg-base-100 shadow-xl">
+                <div style={{ backgroundColor: donations.CategoryColor }} className="card  bg-base-100 shadow-xl">
                     <figure><img className="w-[300px] h-[190px]" src={donations.Picture} alt="Shoes" /></figure>
-                    <div className="card-body">
-                        <h2 className="card-title">
+                    <div style={{ color: donations.TextColor }} className="p-4 mt-4">
+                        <button style={{ backgroundColor: donations.CardColor, }} className="px-3 py-1">
                             {donations.Category}
 
-                        </h2>
-                        <p>  {donations.Title}</p>
+                        </button>
+                        <p className="mt-4 text-xl font-semibold">  {donations.Title}</p>
 
                     </div>
                 </div>

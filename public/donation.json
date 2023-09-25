@@ -6,10 +6,9 @@
         "Category": "Food",
         "Description": "Help provide nutritious meals to underprivileged children in need.",
         "Price": 100,
-        "CategoryColor": "#3498db",
-        "CardColor": "#e74c3c",
-        "TextColor": "#ffffff",
-        "ButtonColor": "#3498db"
+        "CategoryColor": "#0052FF26",
+        "CardColor": "#0052FF33",
+        "TextColor": "#0052FF"
     },
     {
         "id": 2,
@@ -18,10 +17,9 @@
         "Category": "Education",
         "Description": "Support underprivileged students by funding their education and scholarships.",
         "Price": 500,
-        "CategoryColor": "#e67e22",
-        "CardColor": "#27ae60",
-        "TextColor": "#ffffff",
-        "ButtonColor": "#e67e22"
+        "CategoryColor": "#FF444A26",
+        "CardColor": "#FF444A33",
+        "TextColor": "#FF444A"
     },
     {
         "id": 3,
@@ -30,10 +28,9 @@
         "Category": "Food",
         "Description": "Donate to feed hungry families and individuals in our community.",
         "Price": 250,
-        "CategoryColor": "#e74c3c",
-        "CardColor": "#3498db",
-        "TextColor": "#ffffff",
-        "ButtonColor": "#e74c3c"
+        "CategoryColor": "#0052FF26",
+        "CardColor": "#0052FF33",
+        "TextColor": "#0052FF"
     },
     {
         "id": 4,
@@ -42,10 +39,9 @@
         "Category": "Health",
         "Description": "Provide medical assistance and relief to those in crisis situations.",
         "Price": 750,
-        "CategoryColor": "#27ae60",
-        "CardColor": "#e67e22",
-        "TextColor": "#ffffff",
-        "ButtonColor": "#27ae60"
+        "CategoryColor": "#79C23F26",
+        "CardColor": "#79C23F33",
+        "TextColor": "#79C23F"
     },
     {
         "id": 5,
@@ -54,10 +50,9 @@
         "Category": "Food",
         "Description": "Support our local food drive to ensure no one in our community goes hungry.",
         "Price": 50,
-        "CategoryColor": "#3498db",
-        "CardColor": "#e74c3c",
-        "TextColor": "#ffffff",
-        "ButtonColor": "#3498db"
+        "CategoryColor": "#0052FF26",
+        "CardColor": "#0052FF33",
+        "TextColor": "#0052FF"
     },
     {
         "id": 6,
@@ -66,10 +61,9 @@
         "Category": "Education",
         "Description": "Contribute to preserving our planet's ecosystems and natural habitats.",
         "Price": 800,
-        "CategoryColor": "#e67e22",
-        "CardColor": "#27ae60",
-        "TextColor": "#ffffff",
-        "ButtonColor": "#e67e22"
+        "CategoryColor": "#FF444A26",
+        "CardColor": "#FF444A33",
+        "TextColor": "#FF444A"
     },
     {
         "id": 7,
@@ -78,10 +72,9 @@
         "Category": "Food",
         "Description": "Provide warm and comforting meals to elderly residents in assisted living facilities.",
         "Price": 75,
-        "CategoryColor": "#3498db",
-        "CardColor": "#e74c3c",
-        "TextColor": "#ffffff",
-        "ButtonColor": "#3498db"
+        "CategoryColor": "#0052FF26",
+        "CardColor": "#0052FF33",
+        "TextColor": "#0052FF"
     },
     {
         "id": 8,
@@ -90,10 +83,9 @@
         "Category": "Education",
         "Description": "Support the construction and operation of shelters for homeless individuals.",
         "Price": 400,
-        "CategoryColor": "#e67e22",
-        "CardColor": "#27ae60",
-        "TextColor": "#ffffff",
-        "ButtonColor": "#e67e22"
+        "CategoryColor": "#FF444A26",
+        "CardColor": "#FF444A33",
+        "TextColor": "#FF444A"
     },
     {
         "id": 9,
@@ -102,10 +94,9 @@
         "Category": "Health",
         "Description": "Contribute to ongoing research efforts to find a cure for cancer.",
         "Price": 1000,
-        "CategoryColor": "#27ae60",
-        "CardColor": "#e67e22",
-        "TextColor": "#ffffff",
-        "ButtonColor": "#27ae60"
+        "CategoryColor": "#79C23F26",
+        "CardColor": "#79C23F33",
+        "TextColor": "#79C23F"
     },
     {
         "id": 10,
@@ -114,10 +105,9 @@
         "Category": "Clothing",
         "Description": "Donate warm clothing items to help those in need stay warm during the winter months.",
         "Price": 200,
-        "CategoryColor": "#d35400",
-        "CardColor": "#9b59b6",
-        "TextColor": "#ffffff",
-        "ButtonColor": "#d35400"
+        "CategoryColor": " #f8714726",
+        "CardColor": "#F8714733",
+        "TextColor": "#F87147"
     },
     {
         "id": 11,
@@ -126,10 +116,9 @@
         "Category": "Health",
         "Description": "Provide aid and assistance to communities affected by natural disasters.",
         "Price": 500,
-        "CategoryColor": "#27ae60",
-        "CardColor": "#e67e22",
-        "TextColor": "#ffffff",
-        "ButtonColor": "#27ae60"
+        "CategoryColor": "#79C23F26",
+        "CardColor": "#79C23F33",
+        "TextColor": "#79C23F"
     },
     {
         "id": 12,
@@ -138,9 +127,8 @@
         "Category": "Education",
         "Description": "Empower young people with education and skills for a better future.",
         "Price": 600,
-        "CategoryColor": "#e67e22",
-        "CardColor": "#27ae60",
-        "TextColor": "#ffffff",
-        "ButtonColor": "#e67e22"
+        "CategoryColor": "#FF444A26",
+        "CardColor": "#FF444A33",
+        "TextColor": "#FF444A"
     }
 ]
