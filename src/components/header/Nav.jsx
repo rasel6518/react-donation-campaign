@@ -1,5 +1,7 @@
 import { NavLink } from "react-router-dom";
 
+import img from "../../../public/Logo.png";
+
 
 
 const Nav = () => {
@@ -8,7 +10,7 @@ const Nav = () => {
 
 
             <nav className="flex justify-between gap-3 items-center p-1 md:p-10 mx-auto m-2 md:m-5">
-                <img src="Logo.png" alt="donation-campaign" className=" w-[150px] md:w-[252px] h-[40px] md:h-[72px]" />
+                <img src={img} alt="donation-campaign" className=" w-[150px] md:w-[252px] h-[40px] md:h-[72px]" />
                 <ul className="flex gap-5">
                     <li className="font-bold text-xl md:text-3xl">
                         <NavLink
