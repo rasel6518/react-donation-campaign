@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const Donation = ({ }) => {
@@ -23,13 +25,30 @@ const Donation = ({ }) => {
 
         , [id, donations])
 
+
+    const handletodonation = () => {
+
+
+
+        const donated = [];
+        const donationCard = JSON.parse(localStorage.getItem('donation'));
+
+        if (!donationCard) {
+            donated.push(donation);
+            localStorage.setItem('donation', JSON.stringify(donated));
+            toast('Donation Successful');
+        } else {
+            donated.push(...donationCard, donation);
+            localStorage.setItem('donation', JSON.stringify(donated));
+            toast('Donation Successful');
+        }
+
+
+    }
+
     return (
         <div>
-            {/* <img src={donation.Picture} alt="" />
 
-            <h1>{donation.Title}</h1>
-
-            <p>{donation.Description}</p> */}
 
             <div
                 className="block relative rounded-lg bg-white 0">
@@ -40,7 +59,7 @@ const Donation = ({ }) => {
                         alt="" />
 
                     <div className="absolute  w-[] inset-0 bg-opacity-50 bg-black md:top-[500px]   ">
-                        <button className=" mt-5 ml-5 text-white  bg-[#FF444A] text-2xl px-5 py-2      font-semibold">Donate {donation.Price}$</button>
+                        <button onClick={handletodonation} className=" mt-5 ml-5 text-white  bg-[#FF444A] text-2xl px-5 py-2      font-semibold">Donate {donation.Price}$</button>
 
                     </div>
 
@@ -59,6 +78,18 @@ const Donation = ({ }) => {
                 </div>
             </div>
 
+            <ToastContainer position="top-center"
+                autoClose={5000}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+                theme="light">
+
+            </ToastContainer>
 
 
         </div>
