@@ -1,0 +1,39 @@
+import { createBrowserRouter } from "react-router-dom";
+import MainLayout from "../Layout/MainLayout";
+import Home from "../pages/Home";
+
+import Statistics from "../pages/Statistics";
+import DonationNav from "../pages/DonationNav";
+import Donation from "../components/Donation";
+
+
+
+const Router = createBrowserRouter([
+    {
+        path: "/",
+        element: <MainLayout></MainLayout>,
+        children: [
+            {
+                path: "/",
+                element: <Home></Home>,
+                loader: () => fetch('/donation.json')
+            },
+            {
+                path: "/donation",
+                element: <DonationNav></DonationNav>,
+            },
+            {
+                path: "/statistics",
+                element: <Statistics></Statistics>,
+            },
+            {
+                path: "/donations/:id",
+                element: <Donation></Donation>,
+                loader: () => fetch('/donation.json')
+            },
+        ],
+    },
+]);
+
+
+export default Router;
