@@ -3,7 +3,7 @@ import DonationsCard from "./DonationsCard";
 
 const Donations = ({ donations }) => {
 
-    console.log(donations);
+
     return (
         <div className="py-10 ">
 
