@@ -8,17 +8,21 @@ const DonationNav = () => {
     const [donate, setDonate] = useState([])
     const [noData, setNoData] = useState(false)
     const [isShow, setIsShow] = useState(false)
+    const [dLength, setDLength] = useState(0)
 
     useEffect(() => {
         const donationCard = JSON.parse(localStorage.getItem('donation'));
 
+
+
         if (donationCard) {
+            setDLength(donationCard.length);
             setDonate(donationCard)
         } else {
             setNoData('No Data Available')
         }
 
-        console.log(donationCard);
+
 
     }, [])
 
@@ -42,9 +46,14 @@ const DonationNav = () => {
                         </div>
 
                         <div className="text-center my-5">
-                            <button onClick={() => setIsShow(!isShow)} className="px-5 py-3 font-bold rounded-lg text-lg text-white bg-green-600"> {
-                                !isShow ? 'See All' : 'See Less'
-                            } </button>
+                            {dLength > 4 && !isShow && (
+                                <button
+                                    onClick={() => setIsShow(!isShow)}
+                                    className="px-5 py-3 font-bold rounded-lg text-lg text-white bg-green-600"
+                                >
+                                    See All
+                                </button>
+                            )}
                         </div>
                     </div>
             }

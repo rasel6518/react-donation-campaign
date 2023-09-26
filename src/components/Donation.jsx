@@ -63,7 +63,7 @@ const Donation = ({ }) => {
 
                     </div>
 
-                    {/* <div className="block md:block absolute inset-0 bg-black opacity-50 rounded-lg"></div> */}
+
 
                 </div>
 

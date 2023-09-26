@@ -1,7 +1,11 @@
+import { Link } from "react-router-dom";
+import Donation from "./Donation";
+
 
 const Donated = ({ donation }) => {
 
-    // text-center items-center px-3 py-1 w-2/5
+
+
 
     return (
         <div>
@@ -12,7 +16,9 @@ const Donated = ({ donation }) => {
                     <p className="text-2xl font-medium"> {donation.Title}</p>
                     <p style={{ color: donation.TextColor }} className="text-lg font-semibold">${donation.Price}</p>
                     <div className=" ">
-                        <button style={{ backgroundColor: donation.TextColor }} className="px-5 py-3 font-bold rounded-lg text-lg text-white">View Details</button>
+                        <Link to="/donation">
+                            <button style={{ backgroundColor: donation.TextColor }} className="px-5 py-3 font-bold rounded-lg text-lg text-white">View Details</button>
+                        </Link>
                     </div>
                 </div>
             </div>
