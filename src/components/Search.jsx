@@ -1,21 +1,21 @@
-import { useState } from "react";
+// import { useState } from "react";
 
 
-const Search = ({ donations }) => {
-    const [search, setSearch] = useState([])
+// const Search = ({ donations }) => {
+//     const [search, setSearch] = useState([])
 
-    const handleSearch = (e) => {
+//     const handleSearch = (e) => {
 
-        console.log("cliked search")
+//         console.log("cliked search")
 
 
-    }
+//     }
 
-    return (
-        <div>
+//     return (
+//         <div>
 
-        </div>
-    );
-};
+//         </div>
+//     );
+// };
 
-export default Search;
+// export default Search;
