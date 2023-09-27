@@ -1,8 +1,9 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Here are three project features
 
-Currently, two official plugins are available:
+- Local Storage : Utilizes browser local storage to persist donation data, ensuring data retention even after page refresh.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Conditional Rendering: Implements conditional rendering to handle scenarios with and without donation data, enhancing the user experience by displaying relevant content.
+
+- Data Visualization: Implements interactive Pie chart  to visually represent data, making it easier for users to analyze and understand information within the project.
