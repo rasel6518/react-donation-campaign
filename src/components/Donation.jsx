@@ -4,7 +4,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
-const Donation = ({ }) => {
+const Donation = () => {
 
     const { id } = useParams()
 
@@ -51,15 +51,15 @@ const Donation = ({ }) => {
 
 
             <div
-                className="block relative rounded-lg bg-white 0">
+                className=" relative rounded-lg bg-white 0">
                 <div className=" relative bg-cover bg-no-repeat">
                     <img
-                        className="rounded-t-lg w-full h-[80vh]"
+                        className="rounded-t-lg w-full ] lg:h-[600px]"
                         src={donation.Picture}
                         alt="" />
 
-                    <div className="absolute   inset-0 bg-opacity-50 bg-black top-[120px] md:top-[120px]  lg:top-[500px]  ">
-                        <button onClick={handletodonation} className=" mt-5 ml-5 text-white  bg-[#FF444A] text-2xl px-5 py-2      font-semibold">Donate {donation.Price}$</button>
+                    <div className="absolute   inset-0 bg-opacity-50 md:top-[390px] bg-black top-[180px]   lg:top-[500px]  ">
+                        <button onClick={handletodonation} className=" mt-5 ml-5 rounded text-white  bg-[#FF444A] text-2xl px-5 py-2      font-semibold">Donate {donation.Price}$</button>
 
                     </div>
 

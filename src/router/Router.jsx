@@ -5,6 +5,7 @@ import Home from "../pages/Home";
 import Statistics from "../pages/Statistics";
 import DonationNav from "../pages/DonationNav";
 import Donation from "../components/Donation";
+import ErrorPage from "../pages/ErrorPage";
 
 
 
@@ -12,6 +13,7 @@ const Router = createBrowserRouter([
     {
         path: "/",
         element: <MainLayout></MainLayout>,
+        errorElement: <ErrorPage></ErrorPage>,
         children: [
             {
                 path: "/",

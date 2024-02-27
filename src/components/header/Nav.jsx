@@ -9,8 +9,8 @@ const Nav = () => {
         <div>
 
 
-            <nav className="flex justify-between gap-3 items-center p-1 md:p-10 mx-auto m-2 md:m-5">
-                <img src={img} alt="donation-campaign" className=" w-[150px] md:w-[252px] h-[40px] md:h-[72px]" />
+            <nav className="md:flex   md:justify-between gap-3 items-center p-1 md:p-10  mx-20 my-5  md:m-5">
+                <img src={img} alt="donation-campaign" className=" w-[150px] md:w-[252px] h-[40px] md:h-[72px] mb-3" />
                 <ul className="flex gap-5">
                     <li className="font-bold text-xl md:text-3xl">
                         <NavLink

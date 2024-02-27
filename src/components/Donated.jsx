@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import Donation from "./Donation";
 
 
-const Donated = ({ donation }) => {
+const Donated = ({ donation, donations }) => {
 
 
 
@@ -16,7 +16,7 @@ const Donated = ({ donation }) => {
                     <p className="text-2xl font-medium"> {donation.Title}</p>
                     <p style={{ color: donation.TextColor }} className="text-lg font-semibold">${donation.Price}</p>
                     <div className=" ">
-                        <Link to="/donation">
+                        <Link to={`/donations/${donation.id}`}>
                             <button style={{ backgroundColor: donation.TextColor }} className="px-5 py-3 font-bold rounded-lg text-lg text-white">View Details</button>
                         </Link>
                     </div>

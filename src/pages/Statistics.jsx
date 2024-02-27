@@ -6,7 +6,7 @@ const Statistics = () => {
 
 
     return (
-        <div className="mx-auto flex justify-center items-center w-[80vw] md:h-[80vh] lg:h-[60vh]">
+        <div className="mx-auto flex justify-center items-center w-[80vw] md:h-[80vh] lg:h-[60vh]" >
             <Piechart donation={donation}></Piechart>
         </div>
     );
